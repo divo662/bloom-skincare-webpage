@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <meta charset="UTF-8">
+        <title>Bloom</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h2><i class="ri-flower-fill"></i>Bloom</h2>
+                <div class="nav_links" id="navLinks">
+                    <i class="fa fa-times menu_close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Cart</a></li>
+                         <li><a href="">Blog</a></li>
+                         <li><a href="">About</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars menu_open" onclick="showMenu()"></i>
+            </nav>
+            <div class="header-row">
+                <div class="header_image">
+                    <img src="img/face.jpg" alt="">
+                </div>
+                <div class="header-col">
+                    <h2>Discover your Real Beauty in Nature</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                        nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+                         venenatis dolor.</p>
+                         <div class="header_button">
+                            <button class="hero_btn">
+                                Read More
+                            </button>
+                        </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="product">
+            <div class="quote-box">
+            </div>
+           <div class="product-row">
+            <div class="title-box">
+                <p>Our Products</p>
+            </div>
+            <div class="next-btn">
+                <ul>
+                    <button  id="prev-btn"><i class="ri-arrow-left-line"></i></button>
+                    <button id="next-btn"><i class="ri-arrow-right-line"></i></button>
+                </ul>
+            </div>
+            </div>
+           <div class="carousel">
+                <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum1.png" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum2.webp" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum3.png" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum4.png" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum10.png" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum7.webp" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum9.png" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="product-container">
+                    <div class="p-container1">
+                     <img src="img/serum8.png" alt="">
+                    </div>
+                    <div class="p-container2">
+                     <div class="product-row">
+                         <h5>Gold serum</h5>
+                         <h4>$230.00</h4>
+                     </div>
+                     <div class="product-row">
+                       <div class="product-icons">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                       </div>
+                         <p>$500.00</p>
+                         
+                     </div>
+                    </div>
+                    <div class="p-container3">
+                     <div class="product-row">
+                         <h4>Buy Now</h4>
+                         <div class="buy-btn">
+                             <i class="ri-add-fill"></i>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+           </div>
+        </section>
+
+        <section class="layer">
+            <div class="layer-row">
+              <div class="image-container">
+                <div class="image-container1">
+                    <img src="img/layer1.jpg" alt="">
+                </div>
+                <div class="image-container2">
+                    <img src="img/layer2.jpg" alt="">
+                </div>
+              </div>
+              <div class="layer-col">
+                <h2>How to layer your skincare <br> products properly</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                    nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+                     venenatis dolor. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                     nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+                      venenatis dolor. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                      nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+                       venenatis dolor. <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                      nulla et dictum interdum, nisi lorem egestas odio,</p>
+                     <div class="header_button">
+                        <button class="hero_btn">
+                            Read More
+                        </button>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <section class="contact-us">
+          <div class="contact-col">
+          <div class="contact-col">
+              <form>
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="message" placeholder="Your Message" required></textarea>
+                  <button type="submit">Send Message</button>
+              </form>
+          </div>
+      </section>
+      
+  <footer class="footer">
+    <div class="container">
+     <div class="row">
+       <div class="footer-col">
+         <h4>company</h4>
+         <ul>
+           <li><a href="#">about us</a></li>
+           <li><a href="#">our services</a></li>
+           <li><a href="#">privacy policy</a></li>
+           <li><a href="#">affiliate program</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>get help</h4>
+         <ul>
+           <li><a href="#">FAQ</a></li>
+           <li><a href="#">shipping</a></li>
+           <li><a href="#">returns</a></li>
+           <li><a href="#">order status</a></li>
+           <li><a href="#">payment options</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>online shop</h4>
+         <ul>
+           <li><a href="#">Serum</a></li>
+           <li><a href="#">Soap</a></li>
+           <li><a href="#">Acne cream</a></li>
+           <li><a href="#">Facial Cream</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>follow us</h4>
+         <div class="social-links">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </div>
+     </div>
+    </div>
+ </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+        
+            function hideMenu() {
+                navLinks.style.right = "-300px";
+            }
+        
+            // Initialize menu state
+            navLinks.style.right = "-300px";
+            document.addEventListener('DOMContentLoaded', () => {
+  const carousel = document.querySelector('.carousel');
+  const products = document.querySelectorAll('.product-container');
+  const nextBtn = document.getElementById('next-btn');
+  const prevBtn = document.getElementById('prev-btn');
+  const productCount = products.length;
+
+  let productsPerPage = 4; // Default value for larger screens
+  let currentIndex = 0;
+  let totalScrollWidth = 0; // Track total carousel width
+
+  // Update productsPerPage based on screen width
+  function updateProductsPerPage() {
+    if (window.innerWidth <= 700) {
+      productsPerPage = 2; // For phone-sized screens
+    } else {
+      productsPerPage = 4; // For larger screens
+    }
+  }
+
+  // Calculate total carousel width based on product count and items per page
+  function calculateTotalScrollWidth() {
+    const productWidth = products[0].clientWidth; // Assuming all products have same width
+    totalScrollWidth = productCount * productWidth;
+  }
+
+  // Update the carousel position (considering total scroll width)
+  function updateCarousel() {
+    const offset = currentIndex * (-totalScrollWidth / productCount);
+    carousel.style.transform = `translateX(${offset}px)`;
+  }
+
+  // Event listeners for next and previous buttons
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < productCount - 1) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  });
+
+  // Initialize
+  updateProductsPerPage();
+  calculateTotalScrollWidth();
+  updateCarousel();
+
+  // Update on window resize
+  window.addEventListener('resize', () => {
+    updateProductsPerPage();
+    calculateTotalScrollWidth();
+    updateCarousel();
+  });
+});
+
+</script>
+    </body>
+</html>
