@@ -163,7 +163,12 @@ nav ul li:hover:after {
 nav .fa{
     display: none;
   }
-  @media(max-width:700px){
+  @media(max-width: 768px){
+    header{
+        width: 100%;
+        height: 60vh;
+        padding: 15px;
+    }
     .nav_links ul li{
         display: block;
     }
@@ -233,7 +238,7 @@ nav .fa{
     }
     .header-col p{
         margin-bottom: 5%;
-        color: rgb(43, 42, 42);
+        color: rgb(12, 12, 12);
     }
   }
 
@@ -424,9 +429,11 @@ nav .fa{
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .product{
-        width: 95%;
+        width: 90%;
+        height: 100vh;
+        padding: 10px;
     }
     .quote-box {
         margin-top: 20%;
@@ -449,13 +456,14 @@ nav .fa{
     }
 
     .next-btn {
-        flex-basis: 27%;
+        flex-basis: 24%;
         text-align: center;
         margin-top: 10px;
     }
 
     .next-btn button {
         width: 40%;
+        padding: 6px 6px;
         margin: 5px;
     }
 
@@ -593,10 +601,10 @@ nav .fa{
 }
 
 
-@media(max-width:700px){
+@media(max-width:768px){
     .layer{
-        padding: 10px;
-        height: 100vh;
+        padding: 15px;
+        height: 75vh;
     }
     .layer-row {
         display: flex;
@@ -608,7 +616,7 @@ nav .fa{
     }
     .image-container1 {
         height: 150px;
-        width: 150px;
+        width: 170px;
         padding: 0;
         align-items: start;
         align-self: start;
@@ -632,51 +640,6 @@ nav .fa{
     }
 }
 
-.promo{
-    min-height: 60vh;
-    width: 70%;
-    margin-top: 50px;
-    background-image:url(img/promo.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    border: 2px solid #333333;
-    position: relative;
-}
-
-@media(max-width:700px){
-    .promo{
-        min-height: 40vh;
-        width: 95%;
-    }
-}
-
-.contact{
-    width: 70%;
-    margin: 100px auto;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-    background-color: #e91e63;
-}
-.contact h1{
-    color: #fff;
-    padding: 0;
-   margin-bottom: 40px; 
-  }
-  
-  @media(max-width: 700px){
-    .contact h1{
-      color: #fff;
-      padding: 0;
-     margin-bottom: 40px; 
-     font-size: 24px;
-    }
-  }
-
-  
   .contact-us {
     width: 100%;
     background: #f7f7f7;
@@ -756,9 +719,10 @@ nav .fa{
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .contact-us {
-        width: 90%; 
+        width: 100%; 
+        height: 60vh;
         padding: 30px 10px; 
     }
 
@@ -783,6 +747,7 @@ nav .fa{
 .container{
     width: 100%;
     margin:auto;
+    padding: 15px;
   }
   .row{
     display: flex;
@@ -855,6 +820,9 @@ nav .fa{
   
   /*responsive*/
   @media(max-width: 767px){
+    .footer{
+        width: 100%;
+    }
     .footer-col{
       width: 50%;
       margin-bottom: 30px;
