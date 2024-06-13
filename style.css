@@ -163,10 +163,22 @@ nav ul li:hover:after {
 nav .fa{
     display: none;
   }
-  @media(max-width: 768px){
+ /* Media Queries */
+
+@media (max-width: 1024px) {
+    .header-col h2 {
+        font-size: 28px;
+    }
+
+    .hero_btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
     header{
         width: 100%;
-        height: 60vh;
+        min-height: 65vh;
         padding: 15px;
     }
     .nav_links ul li{
@@ -209,7 +221,7 @@ nav .fa{
         position: relative; 
     }
     .header_image {
-        height: 100vh;
+        height: 80vh;
         width: 100%;
         position: absolute; 
         top: 0;
@@ -240,8 +252,18 @@ nav .fa{
         margin-bottom: 5%;
         color: rgb(12, 12, 12);
     }
-  }
+}
 
+@media (max-width: 480px) {
+    .header-col h2 {
+        font-size: 20px;
+    }
+
+    .hero_btn {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+}
   .product{
     width: 90%;
     margin: auto;
@@ -828,9 +850,5 @@ nav .fa{
       margin-bottom: 30px;
   }
   }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
+ 
   
