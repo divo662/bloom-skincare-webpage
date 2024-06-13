@@ -2,22 +2,35 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body {
-    font-family: 'Poppins';
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+
+
+html, body {
+    width: 100%;
     overflow-x: hidden;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+    html,body {
+      overflow-x: hidden;
+    }
   }
+  
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 header{
     min-height: 90vh;
     width: 100%;
-    
     background-image: linear-gradient(rgba(255, 247, 139, 0.7), rgba(255, 247, 139, 0.7));
     background-position: center;
     position: relative;
@@ -164,7 +177,6 @@ nav ul li:hover:after {
 nav .fa{
     display: none;
   }
- /* Media Queries */
 
 @media (max-width: 1024px) {
     .header-col h2 {
@@ -179,6 +191,7 @@ nav .fa{
 @media (max-width: 768px) {
     header{
         width: 100%;
+        min-height: 85vh;
         overflow: hidden;
     }
     .nav_links ul li{
@@ -454,6 +467,7 @@ nav .fa{
 @media (max-width: 768px) {
     .product{
         height: 100vh;
+        margin-top: 0px;
     }
     .quote-box {
         margin-top: 20%;
@@ -495,6 +509,7 @@ nav .fa{
         flex: 0 0 40%;
         margin-left: 2.5%;
         height: 208.5px;
+        
     }
 
     .p-container1 {
@@ -522,6 +537,13 @@ nav .fa{
         font-size: 9px;
     
     }
+    .p-container3{
+        text-align: center;
+       padding: 0;
+       height:auto;
+        border-bottom: none;
+    }
+    
 
     .p-container3 h4 {
         font-size: 11px;
@@ -534,6 +556,14 @@ nav .fa{
 
     .ri-add-fill {
         font-size: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .p-container3{
+        text-align: center;
+       padding: 0;
+       
+        border-bottom: none;
     }
 }
 
@@ -615,9 +645,25 @@ nav .fa{
 }
 
 
+@media (max-width: 1024px) {
+    .layer-row {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        position: relative;
+    }
+    .image-container1 {
+        width: 230px;
+    }
+    .image-container2 {
+        transform: translate(50%, 30%);
+        width: 180px;
+      
+    }
+}
 @media(max-width:768px){
     .layer{
-        height: 75vh;
+        height: 80vh;
     }
     .layer-row {
         display: flex;
@@ -628,8 +674,8 @@ nav .fa{
         position: relative;
     }
     .image-container1 {
-        height: 150px;
-        width: 170px;
+        height: 120px;
+        width: 150px;
         padding: 0;
         align-items: start;
         align-self: start;
@@ -733,8 +779,9 @@ nav .fa{
 
 @media (max-width: 768px) {
     .contact-us {
-        height: 60vh;
+        height: 80vh;
     }
+    
 
     .contact-col {
         flex-basis: 100%;
@@ -828,7 +875,6 @@ nav .fa{
     background-color: #ffffff;
   }
   
-  /*responsive*/
   @media(max-width: 767px){
     .footer{
         width: 100%;
